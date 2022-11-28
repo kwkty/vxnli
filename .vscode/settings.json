@@ -1,0 +1,89 @@
+{
+    "cSpell.enabledLanguageIds": [
+        "dockerfile",
+        "ini",
+        "json",
+        "markdown",
+        "plaintext",
+        "python",
+        "shellscript",
+        "sql",
+        "yaml"
+    ],
+    "cSpell.languageSettings": [
+        {
+            "languageId": "*",
+            "dictionaries": [
+                "companies",
+                "filetypes",
+                "fonts",
+                "fullstack",
+                "misc",
+                "scientific-terms-us",
+                "softwareTerms",
+                "python"
+            ]
+        }
+    ],
+    "cSpell.words": [
+        "arange",
+        "argmax",
+        "astype",
+        "cuda",
+        "dataframe",
+        "dataloaders",
+        "dtype",
+        "dtypes",
+        "feedforward",
+        "finetuned",
+        "huggingface",
+        "iloc",
+        "ipynb",
+        "isin",
+        "iterrows",
+        "logits",
+        "maxsplit",
+        "metafunc",
+        "mlflow",
+        "ncnet",
+        "ngram",
+        "nhead",
+        "nvbench",
+        "optim",
+        "papermill",
+        "preds",
+        "pretrained",
+        "pretraining",
+        "sklearn",
+        "spacy",
+        "stoi",
+        "tapex",
+        "topk",
+        "torchtext",
+        "tqdm",
+        "triu",
+        "unsqueeze",
+        "vnli",
+        "vxnli",
+        "wordcloud"
+    ],
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        ".pytest_cache": true,
+        "build": true,
+        "**/*.egg-info": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/.venv/**": true
+    },
+    "git.branchProtection": [
+        "main"
+    ],
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+    "python.formatting.provider": "black",
+    "python.testing.pytestEnabled": true
+}
