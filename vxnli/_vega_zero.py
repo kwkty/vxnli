@@ -244,6 +244,9 @@ class VegaZero:
             if self.encoding.y_aggregate is not None:
                 encoding["y"]["aggregate"] = self.encoding.y_aggregate
 
+            if self.encoding.color is not None:
+                encoding["color"] = {"field": self.encoding.color, "type": "nominal"}
+
         if self.transform is None:
             vega_lite = {
                 "mark": mark,
