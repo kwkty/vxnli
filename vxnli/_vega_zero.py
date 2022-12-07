@@ -1,9 +1,15 @@
 """A VegaZero parser
 
-The original implementation by the ncNet authors has some bugs.
-So I re-implement the parser.
+The ncNet authors provide a vega zero parser.
 
 https://github.com/Thanksyy/ncNet/blob/19e852368228ad251a28623950524a364ee95260/utilities/vis_rendering.py
+
+However, unfortunately it has some bugs.
+Firstly, I planned to fix them on the original code, but honestly speaking, the code quality is not enough.
+So I decided to refactor (re-implement) the parser.
+
+In the end, I could solve some issues, but there are still some problems.
+Check ../notebooks/01_eda.ipynb for the details.
 """
 
 import dataclasses
@@ -204,6 +210,7 @@ class VegaZero:
 
         return vega_zero_str
 
+    # TODO: Refactor again (Still too long. Split into sub sections)
     def to_vega_lite(self, data: Optional[Union[dict, pd.DataFrame]] = None) -> dict:
         if isinstance(data, pd.DataFrame):
             data = {"values": data.to_dict(orient="records")}
@@ -288,7 +295,11 @@ class VegaZero:
             else:
                 # https://github.com/Thanksyy/ncNet/blob/19e852368228ad251a28623950524a364ee95260/utilities/vis_rendering.py#L244
                 if axis == "x":
-                    encoding["y"]["sort"] = f"-x" if order == "desc" else "x"
+                    # The line below is the original code, but this can't correctly sort x-axis in the alphabet order
+                    # encoding["y"]["sort"] = f"-x" if order == "desc" else "x"
+                    encoding[axis]["sort"] = (
+                        "descending" if order == "desc" else "ascending"
+                    )
                 else:
                     encoding["x"]["sort"] = f"-y" if order == "desc" else "y"
 
@@ -296,11 +307,22 @@ class VegaZero:
             filter_ = self.transform.filter
 
             filter_ = re.sub(
-                r"(\S+ )?(\S+) between (\S+) and (\S+)", r"\1\3 <= \2 <= \4", filter_
+                r"(\S+ )?(\S+) between (\S+) and (\S+)",
+                r"\1\3 <= \2 & \2 <= \4",
+                filter_,
+            )
+
+            # TODO: Support other patterns but %(\S+)%, %(\S+) and (\S+)% (e.g. %a%b%c%)
+            filter_ = re.sub(
+                r'(\S+ )?(\S+) like "%(\S+)%"', r"\1test( /.*\3.*/g , \2 )", filter_
             )
 
             filter_ = re.sub(
-                r'(\S+ )?(\S+) like "%(\S+)"', r"\1test( /.+\3/g , \2 )", filter_
+                r'(\S+ )?(\S+) like "%(\S+)"', r"\1test( /.*\3/g , \2 )", filter_
+            )
+
+            filter_ = re.sub(
+                r'(\S+ )?(\S+) like "(\S+)%"', r"\1test( /\3.*/g , \2 )", filter_
             )
 
             filter_ = filter_.replace(" and ", " & ")
@@ -332,15 +354,20 @@ class VegaZero:
             else:
                 raise VegaZeroError(f"Unsupported sort order: {sort_order}")
 
+            # https://vega.github.io/vega-lite/examples/window_top_k.html
             transform_filters.append(f"datum.rank <= {self.transform.topk}")
 
             transform.append(
                 {
                     "window": [
-                        {"field": sort_axis, "op": "dense_rank", "as": "rank"},
+                        {
+                            "field": encoding[sort_axis]["field"],
+                            "op": "dense_rank",
+                            "as": "rank",
+                        },
                     ],
                     "sort": [
-                        {"field": sort_axis, "order": sort_order},
+                        {"field": encoding[sort_axis]["field"], "order": sort_order},
                     ],
                 },
             )
