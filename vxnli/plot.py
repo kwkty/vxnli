@@ -25,6 +25,14 @@ class Plot:
 
         vega_zero = VegaZero.from_str(vega_zero)
 
+        # HACK: vega_zero is lower-cased
+        data = data.rename(columns={col: col.lower() for col in data.columns})
+
+        for col_name, col_dtype in zip(data.columns, data.dtypes):
+            # HACK: vega_zero is lower-cased
+            if pd.api.types.is_string_dtype(col_dtype):
+                data[col_name] = data[col_name].str.lower()
+
         vega_lite = vega_zero.to_vega_lite(data)
         vega_lite = alt.Chart.from_dict(vega_lite)
 
