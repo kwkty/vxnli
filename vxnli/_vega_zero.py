@@ -313,6 +313,19 @@ class VegaZero:
             )
 
             # TODO: Support other patterns but %(\S+)%, %(\S+) and (\S+)% (e.g. %a%b%c%)
+
+            filter_ = re.sub(
+                r'(\S+ )?(\S+) not like "%(\S+)%"', r"! \1test( /.*\3.*/g , \2 )", filter_
+            )
+
+            filter_ = re.sub(
+                r'(\S+ )?(\S+) not like "%(\S+)"', r"! \1test( /.*\3/g , \2 )", filter_
+            )
+
+            filter_ = re.sub(
+                r'(\S+ )?(\S+) not like "(\S+)%"', r"! \1test( /\3.*/g , \2 )", filter_
+            )
+
             filter_ = re.sub(
                 r'(\S+ )?(\S+) like "%(\S+)%"', r"\1test( /.*\3.*/g , \2 )", filter_
             )
