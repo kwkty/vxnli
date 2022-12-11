@@ -4,11 +4,11 @@ The ncNet authors provide a vega zero parser.
 
 https://github.com/Thanksyy/ncNet/blob/19e852368228ad251a28623950524a364ee95260/utilities/vis_rendering.py
 
-However, unfortunately it has some bugs.
-Firstly, I planned to fix them on the original code, but honestly speaking, the code quality is not enough.
+However, unfortunately it has several bugs.
+Firstly, I planned to fix them on the original code, but honestly speaking, the code quality is not enough to do that.
 So I decided to refactor (re-implement) the parser.
 
-In the end, I could solve some issues, but there are still some problems.
+In the end, I could solve some bugs, but there are still some problems.
 Check ../notebooks/01_eda.ipynb for the details.
 """
 
@@ -315,7 +315,9 @@ class VegaZero:
             # TODO: Support other patterns but %(\S+)%, %(\S+) and (\S+)% (e.g. %a%b%c%)
 
             filter_ = re.sub(
-                r'(\S+ )?(\S+) not like "%(\S+)%"', r"! \1test( /.*\3.*/g , \2 )", filter_
+                r'(\S+ )?(\S+) not like "%(\S+)%"',
+                r"! \1test( /.*\3.*/g , \2 )",
+                filter_,
             )
 
             filter_ = re.sub(
@@ -367,6 +369,16 @@ class VegaZero:
             else:
                 raise VegaZeroError(f"Unsupported sort order: {sort_order}")
 
+            if self.mark == "arc":
+                if sort_axis == "y":
+                    field = encoding["theta"]["field"]
+                else:
+                    raise VegaZeroError(
+                        f"Unsupported sorting axis for pie chart: {sort_axis}"
+                    )
+            else:
+                field = encoding[sort_axis]["field"]
+
             # https://vega.github.io/vega-lite/examples/window_top_k.html
             transform_filters.append(f"datum.rank <= {self.transform.topk}")
 
@@ -374,13 +386,13 @@ class VegaZero:
                 {
                     "window": [
                         {
-                            "field": encoding[sort_axis]["field"],
+                            "field": field,
                             "op": "dense_rank",
                             "as": "rank",
                         },
                     ],
                     "sort": [
-                        {"field": encoding[sort_axis]["field"], "order": sort_order},
+                        {"field": field, "order": sort_order},
                     ],
                 },
             )
