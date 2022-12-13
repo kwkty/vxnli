@@ -65,6 +65,7 @@
         "unsqueeze",
         "vnli",
         "vxnli",
+        "wandb",
         "wordcloud"
     ],
     "files.autoSave": "afterDelay",
