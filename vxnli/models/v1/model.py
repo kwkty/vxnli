@@ -57,7 +57,8 @@ class Model:
         kwargs = " [kwarg] ".join(kwargs)
         kwargs = f"[kwarg] {kwargs}"
 
-        return f"{args} {kwargs}".lower()
+        # HACK: lower and replace " with ' are a dataset issue
+        return f"{args} {kwargs}".lower().replace('"', "'")
 
     @staticmethod
     def _preprocess_table(table: pd.DataFrame) -> pd.DataFrame:
