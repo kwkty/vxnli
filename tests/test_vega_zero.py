@@ -23,7 +23,7 @@ def test_vega_zero_encoding(
     if color is not None:
         vega_zero_encoding_str += f" color {color}"
 
-    vega_zero_encoding = VegaZeroEncoding.from_str(vega_zero_encoding_str)
+    vega_zero_encoding = VegaZeroEncoding.parse(vega_zero_encoding_str)
 
     assert vega_zero_encoding.x == x
     assert vega_zero_encoding.y == y
@@ -52,7 +52,7 @@ def test_vega_zero_transform(filter, group, bin, sort, topk):
 
     vega_zero_transform_str = " ".join(vega_zero_transform_str)
 
-    vega_zero_transform = VegaZeroTransform.from_str(vega_zero_transform_str)
+    vega_zero_transform = VegaZeroTransform.parse(vega_zero_transform_str)
 
     assert vega_zero_transform.filter == filter
     assert vega_zero_transform.group == group
@@ -98,9 +98,9 @@ def test_vega_zero_transform(filter, group, bin, sort, topk):
         'mark bar encoding x number_of_matches y aggregate count number_of_matches transform filter injury != "knee problem" group x sort y asc',
     ],
 )
-def test_vega_zero_from_str(vega_zero: str):
+def test_vega_zero_parse(vega_zero: str):
     # TODO: Check the output with the expected one
-    VegaZero.from_str(vega_zero)
+    VegaZero.parse(vega_zero)
 
 
 @pytest.mark.parametrize(
@@ -140,4 +140,4 @@ def test_vega_zero_from_str(vega_zero: str):
 )
 def test_vega_zero_to_vega_lite(vega_zero: str):
     # TODO: Check the output with the expected one
-    VegaZero.from_str(vega_zero).to_vega_lite()
+    VegaZero.parse(vega_zero).to_vega_lite()
