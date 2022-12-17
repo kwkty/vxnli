@@ -46,6 +46,7 @@
         "metafunc",
         "mlflow",
         "ncnet",
+        "ndjson",
         "ngram",
         "nhead",
         "nvbench",
