@@ -33,7 +33,7 @@ class VegaZeroEncoding:
     _PATTERN_02: ClassVar[re.Pattern] = re.compile(r"(\S+) color (\S+)")
 
     @classmethod
-    def from_str(cls, vega_zero_encoding_str: str) -> "VegaZeroEncoding":
+    def parse(cls, vega_zero_encoding_str: str) -> "VegaZeroEncoding":
         match = cls._PATTERN_01.match(vega_zero_encoding_str)
 
         if match is None:
@@ -97,7 +97,7 @@ class VegaZeroTransform:
         return kwargs
 
     @classmethod
-    def from_str(cls, vega_zero_transform_str: str) -> "VegaZeroTransform":
+    def parse(cls, vega_zero_transform_str: str) -> "VegaZeroTransform":
         keywords = dataclasses.fields(cls)
         keywords = frozenset(k.name for k in keywords)
 
@@ -158,7 +158,7 @@ class VegaZero:
     _PATTERN_04: ClassVar[re.Pattern] = re.compile(r"(.+) transform (.+)")
 
     @classmethod
-    def from_str(cls, vega_zero_str: str) -> "VegaZero":
+    def parse(cls, vega_zero_str: str) -> "VegaZero":
         match = cls._PATTERN_01.match(vega_zero_str)
 
         if match is None:
@@ -187,9 +187,9 @@ class VegaZero:
         else:
             encoding, transform = match.groups()
 
-            transform = VegaZeroTransform.from_str(transform)
+            transform = VegaZeroTransform.parse(transform)
 
-        encoding = VegaZeroEncoding.from_str(encoding)
+        encoding = VegaZeroEncoding.parse(encoding)
 
         return cls(
             mark=mark,

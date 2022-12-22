@@ -12,9 +12,9 @@ from transformers import (
 
 
 class Model:
-    def __init__(self, hf_model: Union[str, Path]) -> None:
-        self.tokenizer = TapexTokenizer.from_pretrained(hf_model)
-        self.model = BartForConditionalGeneration.from_pretrained(hf_model)
+    def __init__(self, huggingface_model: Union[str, Path] = "kwkty/vxnli-v1") -> None:
+        self.tokenizer = TapexTokenizer.from_pretrained(huggingface_model)
+        self.model = BartForConditionalGeneration.from_pretrained(huggingface_model)
 
     def __call__(self, table: pd.DataFrame, *args, **kwargs) -> str:
         query = self._preprocess_args(*args, **kwargs)
@@ -57,7 +57,8 @@ class Model:
         kwargs = " [kwarg] ".join(kwargs)
         kwargs = f"[kwarg] {kwargs}"
 
-        return f"{args} {kwargs}".lower()
+        # HACK: lower and replace " with ' are a dataset issue
+        return f"{args} {kwargs}".lower().replace('"', "'")
 
     @staticmethod
     def _preprocess_table(table: pd.DataFrame) -> pd.DataFrame:

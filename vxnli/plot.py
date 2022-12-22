@@ -23,7 +23,10 @@ class Plot:
         data, args, kwargs = self._parse_args_and_kwargs(args, kwargs)
         vega_zero = self.model(data, *args, **kwargs)
 
-        vega_zero = VegaZero.from_str(vega_zero)
+        vega_zero = VegaZero.parse(vega_zero)
+
+        # HACK: just in case
+        data = data.copy()
 
         # HACK: vega_zero is lower-cased
         data = data.rename(columns={col: col.lower() for col in data.columns})
@@ -63,7 +66,7 @@ class Plot:
 
         i, data = data[0]
 
-        return data, args[:i] + args[i:]
+        return data, args[:i] + args[i + 1 :]
 
     def _parse_kwargs(self, kwargs: dict) -> Tuple[Optional[pd.DataFrame], dict]:
         data = [(k, v) for k, v in kwargs.items() if isinstance(v, pd.DataFrame)]
