@@ -67,7 +67,8 @@
         "vnli",
         "vxnli",
         "wandb",
-        "wordcloud"
+        "wordcloud",
+        "xnli"
     ],
     "files.autoSave": "afterDelay",
     "files.exclude": {
