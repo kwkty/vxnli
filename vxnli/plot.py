@@ -1,3 +1,5 @@
+import logging
+
 from typing import Callable, Optional, Tuple
 
 import altair as alt
@@ -5,6 +7,9 @@ import pandas as pd
 
 from vxnli._vega_zero import VegaZero
 from vxnli.errors import InputError
+
+
+logger = logging.getLogger(__name__)
 
 
 class Plot:
@@ -23,13 +28,17 @@ class Plot:
         data, args, kwargs = self._parse_args_and_kwargs(args, kwargs)
         vega_zero = self.model(data, *args, **kwargs)
 
+        logger.debug(f"vega_zero: {vega_zero}")
+
         vega_zero = VegaZero.parse(vega_zero)
 
         # HACK: just in case
         data = data.copy()
 
-        # HACK: vega_zero is lower-cased
+        # This procedure is different from the training one
         data = data.rename(columns={col: col.lower() for col in data.columns})
+
+        # df = df.astype(str)
 
         for col_name, col_dtype in zip(data.columns, data.dtypes):
             # HACK: vega_zero is lower-cased
