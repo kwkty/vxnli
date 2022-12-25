@@ -64,11 +64,10 @@ class Model:
     def _preprocess_table(table: pd.DataFrame) -> pd.DataFrame:
         table = table.rename(columns={col: col.lower() for col in table.columns})
 
-        for col_name, col_dtype in zip(table.columns, table.dtypes):
-            if pd.api.types.is_string_dtype(col_dtype):
-                table[col_name] = table[col_name].str.lower()
-
         # The TAPEX tokenizer raises an error when the table contains non-str columns
         table = table.astype(str)
+
+        for col_name, col_dtype in zip(table.columns, table.dtypes):
+            table[col_name] = table[col_name].str.lower()
 
         return table
