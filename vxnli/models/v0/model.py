@@ -57,7 +57,7 @@ class Model:
 
     @staticmethod
     def _preprocess_args(*args, **kwargs) -> str:
-        return args[0].lower()
+        return args[0].lower().replace('"', "'")
 
     @staticmethod
     def _preprocess_table(table: pd.DataFrame) -> pd.DataFrame:
