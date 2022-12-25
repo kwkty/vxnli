@@ -370,12 +370,13 @@ class VegaZero:
                 raise VegaZeroError(f"Unsupported sort order: {sort_order}")
 
             if self.mark == "arc":
-                if sort_axis == "y":
-                    field = encoding["theta"]["field"]
+                if sort_axis == "x":
+                    field = self.encoding.x
+                elif sort_axis == "y":
+                    field = self.encoding.y
                 else:
-                    raise VegaZeroError(
-                        f"Unsupported sorting axis for pie chart: {sort_axis}"
-                    )
+                    field = sort_axis
+
             else:
                 field = encoding[sort_axis]["field"]
 
