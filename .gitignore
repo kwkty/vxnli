@@ -1,5 +1,7 @@
-data/
-mlruns/
+data/*
+!data/datasets/
+data/datasets/*
+!data/datasets/vxnli-v1/
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
