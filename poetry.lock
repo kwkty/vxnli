@@ -2275,7 +2275,7 @@ model-v1 = ["transformers", "sentencepiece"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.11"
-content-hash = "31ef1717400d74d1eeea237bbe9a44240ce314215d30dd3c27b4ea2d3d1c842d"
+content-hash = "2dc87e5eb4b82a2670aaa4087bf2d8a4fe135f1b06fbfb2c3272149579d58bcc"
 
 [metadata.files]
 aiohttp = [
