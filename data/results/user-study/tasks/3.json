@@ -1,0 +1,1325 @@
+{
+    "user_id": 3,
+    "user_group": "B",
+    "task_a": [
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672041846.97449
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is start_from and the label of y is employee_id"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 1.646573543548584,
+                        "rendering_time": 0.20337963104248047,
+                        "total_time": 1.8499531745910645
+                    },
+                    "timestamp": 1672041894.9089432
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the label of y is Count of Records"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x is_full_time y aggregate count is_full_time transform group x",
+                        "prediction_time": 2.074664831161499,
+                        "rendering_time": 0.16498613357543945,
+                        "total_time": 2.2396509647369385
+                    },
+                    "timestamp": 1672041937.5588028
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the label of y is Count of Records",
+                            "There is two studenst"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x start_from y aggregate count start_from transform group x",
+                        "prediction_time": 1.8970844745635986,
+                        "rendering_time": 0.36868906021118164,
+                        "total_time": 2.2657735347747803
+                    },
+                    "timestamp": 1672041961.6565933
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the label of y is Count of Records",
+                            "There is two students"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x start_from y aggregate count start_from transform group x",
+                        "prediction_time": 1.894648551940918,
+                        "rendering_time": 0.19057679176330566,
+                        "total_time": 2.0852253437042236
+                    },
+                    "timestamp": 1672041965.901446
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672041846.97449
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is start_from and the label of y is employee_id"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 1.646573543548584,
+                        "rendering_time": 0.20337963104248047,
+                        "total_time": 1.8499531745910645
+                    },
+                    "timestamp": 1672041894.9089432
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the label of y is Count of Records"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x is_full_time y aggregate count is_full_time transform group x",
+                        "prediction_time": 2.074664831161499,
+                        "rendering_time": 0.16498613357543945,
+                        "total_time": 2.2396509647369385
+                    },
+                    "timestamp": 1672041937.5588028
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the label of y is Count of Records",
+                            "There is two studenst"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x start_from y aggregate count start_from transform group x",
+                        "prediction_time": 1.8970844745635986,
+                        "rendering_time": 0.36868906021118164,
+                        "total_time": 2.2657735347747803
+                    },
+                    "timestamp": 1672041961.6565933
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the label of y is Count of Records",
+                            "There is two students"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x start_from y aggregate count start_from transform group x",
+                        "prediction_time": 1.894648551940918,
+                        "rendering_time": 0.19057679176330566,
+                        "total_time": 2.0852253437042236
+                    },
+                    "timestamp": 1672041965.901446
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is start_from and the label of y is employee_id",
+                            "line graph"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 1.8515596389770508,
+                        "rendering_time": 0.15880346298217773,
+                        "total_time": 2.0103631019592285
+                    },
+                    "timestamp": 1672041996.8230715
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672042004.7710698
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x transaction_type_code y aggregate count transaction_type_code transform group x",
+                        "prediction_time": 3.8100600242614746,
+                        "rendering_time": 0.1817185878753662,
+                        "total_time": 3.991778612136841
+                    },
+                    "timestamp": 1672042017.3614433
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart66% is pur"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x pur y aggregate none amount_of_transaction transform filter transaction_type_code = \"p\"",
+                        "prediction_time": 3.0479233264923096,
+                        "rendering_time": 0.26318907737731934,
+                        "total_time": 3.311112403869629
+                    },
+                    "timestamp": 1672042068.000296
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart66% of the pie chart is pur"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x pur y aggregate none amount_of_transaction transform filter investor_id = \"pur\"",
+                        "prediction_time": 3.081655979156494,
+                        "rendering_time": 0.27324604988098145,
+                        "total_time": 3.3549020290374756
+                    },
+                    "timestamp": 1672042083.7196062
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "66% of the pie chart is pur"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x pur y aggregate none amount_of_transaction transform filter investor_id = \"pur\"",
+                        "prediction_time": 3.302732229232788,
+                        "rendering_time": 0.2804527282714844,
+                        "total_time": 3.5831849575042725
+                    },
+                    "timestamp": 1672042092.662028
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x transaction_type_code y aggregate count transaction_type_code transform group x",
+                        "prediction_time": 3.6010868549346924,
+                        "rendering_time": 0.22457122802734375,
+                        "total_time": 3.825658082962036
+                    },
+                    "timestamp": 1672042147.9532363
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart",
+                            "66% of them are pur"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x pur y aggregate none amount_of_transaction transform group x",
+                        "prediction_time": 3.4184956550598145,
+                        "rendering_time": 0.1615304946899414,
+                        "total_time": 3.580026149749756
+                    },
+                    "timestamp": 1672042158.708518
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart",
+                            "66% of them are pur and the rest are sale"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x sale y aggregate none amount_of_transaction transform group x",
+                        "prediction_time": 2.9348442554473877,
+                        "rendering_time": 0.15652132034301758,
+                        "total_time": 3.0913655757904053
+                    },
+                    "timestamp": 1672042186.0088108
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672042205.2254322
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is location and the label of y is sum of number_of_platforms"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x location y aggregate sum number_of_platforms transform group x",
+                        "prediction_time": 2.5275702476501465,
+                        "rendering_time": 0.17547893524169922,
+                        "total_time": 2.7030491828918457
+                    },
+                    "timestamp": 1672042254.338075
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672042264.3349056
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is location and the label of y is sum of number_of_platforms"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x location y aggregate sum count location transform group x",
+                        "prediction_time": 3.1795599460601807,
+                        "rendering_time": 0.2577226161956787,
+                        "total_time": 3.4372825622558594
+                    },
+                    "timestamp": 1672042289.6121411
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is season and the label of y is Count of Records"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x season y aggregate count season transform group x",
+                        "prediction_time": 2.9149632453918457,
+                        "rendering_time": 0.3874344825744629,
+                        "total_time": 3.3023977279663086
+                    },
+                    "timestamp": 1672042311.8553312
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is season and the label of y is Count of Records",
+                            "line graph"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x",
+                        "prediction_time": 3.0628788471221924,
+                        "rendering_time": 0.32294249534606934,
+                        "total_time": 3.3858213424682617
+                    },
+                    "timestamp": 1672042323.1618564
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is season and the label of y is Count of Records",
+                            "line graph"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x",
+                        "prediction_time": 2.822633743286133,
+                        "rendering_time": 0.17554640769958496,
+                        "total_time": 2.9981801509857178
+                    },
+                    "timestamp": 1672042332.6274269
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is season and the label of y is Count of Records",
+                            "line graphthe rightmost value on the x-axis is 2007"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform filter 2007 group x",
+                        "prediction_time": 3.1538264751434326,
+                        "rendering_time": 0.2853279113769531,
+                        "total_time": 3.4391543865203857
+                    },
+                    "timestamp": 1672042383.353943
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is season and the label of y is Count of Records",
+                            "line graphthe order of x axis values is reversed"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x sort x desc",
+                        "prediction_time": 3.0922555923461914,
+                        "rendering_time": 0.2014310359954834,
+                        "total_time": 3.293686628341675
+                    },
+                    "timestamp": 1672042430.4334047
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672042441.876573
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x",
+                        "prediction_time": 4.259783506393433,
+                        "rendering_time": 0.1893157958984375,
+                        "total_time": 4.44909930229187
+                    },
+                    "timestamp": 1672042479.4018705
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "the range of y axis is from 0 to 12"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform filter range 0 to 12",
+                        "prediction_time": 4.109308481216431,
+                        "rendering_time": 0.28105759620666504,
+                        "total_time": 4.390366077423096
+                    },
+                    "timestamp": 1672042507.5035603
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "the range of y axis is from 0 to 12"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform filter range 0 to 12",
+                        "prediction_time": 4.112569570541382,
+                        "rendering_time": 0.5273363590240479,
+                        "total_time": 4.63990592956543
+                    },
+                    "timestamp": 1672042521.567399
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "the range of y is from 0 to 12"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform filter range x sort y desc",
+                        "prediction_time": 4.1261842250823975,
+                        "rendering_time": 0.32145190238952637,
+                        "total_time": 4.447636127471924
+                    },
+                    "timestamp": 1672042529.7324257
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "the range of y is 0 to12"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x",
+                        "prediction_time": 4.353294134140015,
+                        "rendering_time": 0.29563379287719727,
+                        "total_time": 4.648927927017212
+                    },
+                    "timestamp": 1672042544.1371882
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "the range of y is 0 to 12"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform filter range y desc",
+                        "prediction_time": 4.117493391036987,
+                        "rendering_time": 0.29476499557495117,
+                        "total_time": 4.4122583866119385
+                    },
+                    "timestamp": 1672042551.4838102
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "the range of y is 0 to 12"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform filter range y desc",
+                        "prediction_time": 4.278639316558838,
+                        "rendering_time": 0.5280992984771729,
+                        "total_time": 4.806738615036011
+                    },
+                    "timestamp": 1672042571.812428
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "y axis is from 0 to 12"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform filter lname = \"f\" group x",
+                        "prediction_time": 4.308567047119141,
+                        "rendering_time": 0.3212573528289795,
+                        "total_time": 4.62982439994812
+                    },
+                    "timestamp": 1672042594.8924465
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "the range of y axis is from zero to twelve"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x sort y desc",
+                        "prediction_time": 4.012670993804932,
+                        "rendering_time": 0.2536275386810303,
+                        "total_time": 4.266298532485962
+                    },
+                    "timestamp": 1672042609.7715452
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records",
+                            "the range of y axis is from zero to twelve",
+                            "the order of x axis is reversed"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672042632.2671251
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672042641.531256
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate none stu_num",
+                        "prediction_time": 2.278330087661743,
+                        "rendering_time": 0.15994668006896973,
+                        "total_time": 2.438276767730713
+                    },
+                    "timestamp": 1672042657.056346
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart",
+                            "the components are anne, gerald, john, raphael ,and walter"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x anne y aggregate none mark bar encoding x anne x",
+                        "prediction_time": 2.4079103469848633,
+                        "rendering_time": 0.23177456855773926,
+                        "total_time": 2.6396849155426025
+                    },
+                    "timestamp": 1672042687.5950317
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart",
+                            "the components are anne, gerald, john, raphael, and walter"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x anne y aggregate none mark bar encoding x anne x",
+                        "prediction_time": 2.4053151607513428,
+                        "rendering_time": 0.16341686248779297,
+                        "total_time": 2.5687320232391357
+                    },
+                    "timestamp": 1672042692.9986064
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart",
+                            "anne, gerald, john, raphael, walter"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x gerald y aggregate none stu_id transform filter l",
+                        "prediction_time": 2.4246418476104736,
+                        "rendering_time": 0.2545909881591797,
+                        "total_time": 2.6792328357696533
+                    },
+                    "timestamp": 1672042703.6150684
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart",
+                            "anne,"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x anne y aggregate none stu_dob",
+                        "prediction_time": 2.900132894515991,
+                        "rendering_time": 0.5052015781402588,
+                        "total_time": 3.40533447265625
+                    },
+                    "timestamp": 1672042714.831742
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart",
+                            "anne",
+                            "gerald"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x gerald y aggregate none stu_id",
+                        "prediction_time": 2.774704933166504,
+                        "rendering_time": 0.15511584281921387,
+                        "total_time": 2.9298207759857178
+                    },
+                    "timestamp": 1672042721.6602185
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart",
+                            "stu_fname is anne, gerald, john, raphael, walter"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate none stu_fname transform filter anne x",
+                        "prediction_time": 2.811234951019287,
+                        "rendering_time": 0.4080491065979004,
+                        "total_time": 3.2192840576171875
+                    },
+                    "timestamp": 1672042764.0871425
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate none stu_num",
+                        "prediction_time": 2.3224618434906006,
+                        "rendering_time": 0.15532755851745605,
+                        "total_time": 2.4777894020080566
+                    },
+                    "timestamp": 1672042774.253144
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart",
+                            "john and walter"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x john y aggregate none stu_id transform filter lname = \"john\"",
+                        "prediction_time": 2.496913433074951,
+                        "rendering_time": 0.262772798538208,
+                        "total_time": 2.759686231613159
+                    },
+                    "timestamp": 1672042793.6585734
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart",
+                            ""
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_lname y aggregate none stu_id",
+                        "prediction_time": 2.7802257537841797,
+                        "rendering_time": 0.15901994705200195,
+                        "total_time": 2.9392457008361816
+                    },
+                    "timestamp": 1672042809.0283878
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate none stu_num",
+                        "prediction_time": 2.2640819549560547,
+                        "rendering_time": 0.16753482818603516,
+                        "total_time": 2.43161678314209
+                    },
+                    "timestamp": 1672042816.0364225
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "pie chart",
+                            "juliette and william are removed"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672042831.5249395
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672042840.49719
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records",
+                            "the range of y axis is from zero to twelve"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort y desc",
+                        "prediction_time": 3.2979981899261475,
+                        "rendering_time": 0.20235133171081543,
+                        "total_time": 3.500349521636963
+                    },
+                    "timestamp": 1672042876.1383564
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records",
+                            "the order of x axis is reversed"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort x desc",
+                        "prediction_time": 3.559722900390625,
+                        "rendering_time": 0.21997547149658203,
+                        "total_time": 3.779698371887207
+                    },
+                    "timestamp": 1672042909.2156596
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records",
+                            "the order of x axis is netherlands, brazil, russia, germany, france, uk, china, usa"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 3.0399303436279297,
+                        "rendering_time": 0.18040966987609863,
+                        "total_time": 3.2203400135040283
+                    },
+                    "timestamp": 1672042946.332104
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 3.2291653156280518,
+                        "rendering_time": 0.17908835411071777,
+                        "total_time": 3.4082536697387695
+                    },
+                    "timestamp": 1672042976.0068626
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records",
+                            "the more to the right, the greater "
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672043059.0245023
+                }
+            ]
+        }
+    ],
+    "task_b": [
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672043341.327904
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "validation",
+                        "args": [],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672043342.0918355
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is occupation and the label of y is sum of Count of Records"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x occupation y aggregate sum count occupation transform group x",
+                        "prediction_time": 2.2527782917022705,
+                        "rendering_time": 0.16690969467163086,
+                        "total_time": 2.4196879863739014
+                    },
+                    "timestamp": 1672043388.409051
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is occupation and the label of y is Count of Records"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x occupation y aggregate count occupation transform group x",
+                        "prediction_time": 2.3071911334991455,
+                        "rendering_time": 0.18557167053222656,
+                        "total_time": 2.492762804031372
+                    },
+                    "timestamp": 1672043413.7437394
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672042840.49719
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records",
+                            "the range of y axis is from zero to twelve"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort y desc",
+                        "prediction_time": 3.2979981899261475,
+                        "rendering_time": 0.20235133171081543,
+                        "total_time": 3.500349521636963
+                    },
+                    "timestamp": 1672042876.1383564
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records",
+                            "the order of x axis is reversed"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort x desc",
+                        "prediction_time": 3.559722900390625,
+                        "rendering_time": 0.21997547149658203,
+                        "total_time": 3.779698371887207
+                    },
+                    "timestamp": 1672042909.2156596
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records",
+                            "the order of x axis is netherlands, brazil, russia, germany, france, uk, china, usa"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 3.0399303436279297,
+                        "rendering_time": 0.18040966987609863,
+                        "total_time": 3.2203400135040283
+                    },
+                    "timestamp": 1672042946.332104
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 3.2291653156280518,
+                        "rendering_time": 0.17908835411071777,
+                        "total_time": 3.4082536697387695
+                    },
+                    "timestamp": 1672042976.0068626
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records",
+                            "the more to the right, the greater "
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672043059.0245023
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "the labe of x axis is start_from and the label of y is employee_id",
+                            "line graph"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672043585.5551147
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672043606.3736556
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie char"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x transaction_type_code y aggregate count transaction_type_code transform group x",
+                        "prediction_time": 3.662750720977783,
+                        "rendering_time": 0.17078447341918945,
+                        "total_time": 3.8335351943969727
+                    },
+                    "timestamp": 1672043617.5739722
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x transaction_type_code y aggregate count transaction_type_code transform group x",
+                        "prediction_time": 3.255211353302002,
+                        "rendering_time": 0.17946696281433105,
+                        "total_time": 3.434678316116333
+                    },
+                    "timestamp": 1672043624.013105
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "validation",
+                        "args": [
+                            "pie chart",
+                            "2 thirds are pur"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672043639.4939766
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart. 2 thirds are pur"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x pur y aggregate count pur transform filter investor_id = \"pur\" group x",
+                        "prediction_time": 3.065133571624756,
+                        "rendering_time": 0.28731441497802734,
+                        "total_time": 3.352447986602783
+                    },
+                    "timestamp": 1672043659.1305535
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart. 2/3 are pur"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x pur y aggregate none amount_of_transaction transform filter investor_id = \"pur\"",
+                        "prediction_time": 3.106658697128296,
+                        "rendering_time": 0.2704789638519287,
+                        "total_time": 3.3771376609802246
+                    },
+                    "timestamp": 1672043671.026664
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart. 66% pur"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x pur y aggregate none amount_of_transaction transform sort x asc",
+                        "prediction_time": 3.077772378921509,
+                        "rendering_time": 0.26865196228027344,
+                        "total_time": 3.3464243412017822
+                    },
+                    "timestamp": 1672043682.9792643
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart. 66% pur 33% sale"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x sale y aggregate none amount_of_transaction transform sort x asc",
+                        "prediction_time": 3.2533814907073975,
+                        "rendering_time": 0.19443631172180176,
+                        "total_time": 3.447817802429199
+                    },
+                    "timestamp": 1672043696.9136045
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "pie chart. 66% pur. 33% sale"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x sale y aggregate none amount_of_transaction transform sort x asc",
+                        "prediction_time": 3.3694376945495605,
+                        "rendering_time": 0.20229363441467285,
+                        "total_time": 3.5717313289642334
+                    },
+                    "timestamp": 1672043706.9918015
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672043730.7647908
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is location and the label of y is sum of number_of_platforms"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x location y aggregate sum number_of_platforms transform group x",
+                        "prediction_time": 2.4737489223480225,
+                        "rendering_time": 0.1714158058166504,
+                        "total_time": 2.645164728164673
+                    },
+                    "timestamp": 1672043746.9233365
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672043755.061441
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "validation",
+                        "args": [],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672043758.3060608
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "validation",
+                        "args": [
+                            "the labe of x axis is season and the label of y is Count of Records",
+                            "line graphthe order of x axis values is reversed"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672043809.481037
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "validation",
+                        "args": [
+                            "the labe of x axis is season and the label of y is Count of Records",
+                            "line graph and the order of x axis values is reversed"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672043818.142861
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is season and the label of y is Count of Records. line graph and the order of x axis values is reversed"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x sort x desc",
+                        "prediction_time": 3.392192840576172,
+                        "rendering_time": 0.21744918823242188,
+                        "total_time": 3.6096420288085938
+                    },
+                    "timestamp": 1672043829.0905726
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672043837.006298
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records. The range of y axis is from zero to twelve. The order of x axis is reversed"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x sort x asc",
+                        "prediction_time": 4.139327764511108,
+                        "rendering_time": 0.22136521339416504,
+                        "total_time": 4.360692977905273
+                    },
+                    "timestamp": 1672043887.9116445
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is sex and the label of y is Count of Records. The female is 3 and the male is 12. The order of x axis is reversed"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x sort x asc",
+                        "prediction_time": 3.9443795680999756,
+                        "rendering_time": 0.21629858016967773,
+                        "total_time": 4.160678148269653
+                    },
+                    "timestamp": 1672043958.0582385
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672043970.9493742
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart. Only anne and gerald"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x anne y aggregate none gerald",
+                        "prediction_time": 2.7920799255371094,
+                        "rendering_time": 0.17551112174987793,
+                        "total_time": 2.9675910472869873
+                    },
+                    "timestamp": 1672043995.5189722
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart. anne, gerald, john, raphael, and walter"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x anne y aggregate none walter transform sort x asc",
+                        "prediction_time": 2.391486167907715,
+                        "rendering_time": 0.18502092361450195,
+                        "total_time": 2.576507091522217
+                    },
+                    "timestamp": 1672044023.6331527
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart. anne, gerald, john, raphael, and walter"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x anne y aggregate none walter transform sort x asc",
+                        "prediction_time": 2.772573709487915,
+                        "rendering_time": 0.18598556518554688,
+                        "total_time": 2.958559274673462
+                    },
+                    "timestamp": 1672044125.8932555
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Pie chart. stu_fname are anne, gerald, john, raphael, and walter"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate count stu_fname transform filter stu_name = \"anne\" group x",
+                        "prediction_time": 3.408454418182373,
+                        "rendering_time": 0.2675330638885498,
+                        "total_time": 3.675987482070923
+                    },
+                    "timestamp": 1672044148.4377592
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672044169.2345645
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records. The order of x axis is netherlands, brazil, russia, germany, france, uk, china, usa"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort x asc",
+                        "prediction_time": 2.939622402191162,
+                        "rendering_time": 0.2659168243408203,
+                        "total_time": 3.2055392265319824
+                    },
+                    "timestamp": 1672044212.3901703
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records. The more to right, the greater the y value is"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 2.9974820613861084,
+                        "rendering_time": 0.1735384464263916,
+                        "total_time": 3.1710205078125
+                    },
+                    "timestamp": 1672044243.6917078
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records. The more to right, the greater the y value is"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 3.2482006549835205,
+                        "rendering_time": 0.34946680068969727,
+                        "total_time": 3.5976674556732178
+                    },
+                    "timestamp": 1672044294.8694901
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "the labe of x axis is headquarters and the label of y is Count of Records. The more to right, the greater the y value is. The colors represents the industry"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 3.269205331802368,
+                        "rendering_time": 0.17333078384399414,
+                        "total_time": 3.4425361156463623
+                    },
+                    "timestamp": 1672044324.8091652
+                }
+            ]
+        }
+    ]
+}
