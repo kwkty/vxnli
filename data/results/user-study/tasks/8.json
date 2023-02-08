@@ -1,0 +1,456 @@
+{
+    "user_id": 8,
+    "user_group": "A",
+    "task_a": [
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672160420.657335
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            " create graph, x is occupation, y is the amount of x from the list"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672160822.234166
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672160842.1389234
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make graph, x is the start_from, y is employee_id"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 1.3842964172363281,
+                        "rendering_time": 0.15636372566223145,
+                        "total_time": 1.5406601428985596
+                    },
+                    "timestamp": 1672160887.971356
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Folding Line Chart graph, x is the start_from, y is employee_id"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 1.5897581577301025,
+                        "rendering_time": 0.15197229385375977,
+                        "total_time": 1.7417304515838623
+                    },
+                    "timestamp": 1672160905.6430168
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672160919.4505332
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "calculate mean of amount_of_transaction, then generate a pie chart based on transaction_type_code"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x transaction_type_code y aggregate mean amount_of_transaction transform group x",
+                        "prediction_time": 2.592769145965576,
+                        "rendering_time": 0.17590880393981934,
+                        "total_time": 2.7686779499053955
+                    },
+                    "timestamp": 1672161116.348645
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672161739.0350096
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Histogram graph, x is location, y is sum of number_of_platforms."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x location y aggregate sum number_of_platforms transform group x",
+                        "prediction_time": 2.2840638160705566,
+                        "rendering_time": 0.162766695022583,
+                        "total_time": 2.4468305110931396
+                    },
+                    "timestamp": 1672161836.5088677
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672161844.6302578
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Folding Line Chart, x is season, y is Count of higest score"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform bin x by year",
+                        "prediction_time": 2.7879464626312256,
+                        "rendering_time": 0.1884009838104248,
+                        "total_time": 2.9763474464416504
+                    },
+                    "timestamp": 1672162020.040296
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672162072.2772648
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Folding Line Chart, x is sex, y is the number of AsstProf"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x sex y aggregate count sex transform group x",
+                        "prediction_time": 4.016926050186157,
+                        "rendering_time": 0.2006394863128662,
+                        "total_time": 4.217565536499023
+                    },
+                    "timestamp": 1672162192.7117136
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Histogram, x is sex, y is the number of AsstProf"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x",
+                        "prediction_time": 4.193937063217163,
+                        "rendering_time": 0.18320083618164062,
+                        "total_time": 4.377137899398804
+                    },
+                    "timestamp": 1672162213.0075915
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672162220.8451178
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make pie chart of Top 5 STU_GPA"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_gpa y aggregate count stu_gpa transform group x",
+                        "prediction_time": 3.033411741256714,
+                        "rendering_time": 0.17602849006652832,
+                        "total_time": 3.209440231323242
+                    },
+                    "timestamp": 1672162377.1816251
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "make pie chart, only top 5 from STU_GPA"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672162408.3390608
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672162415.147747
+                }
+            ]
+        }
+    ],
+    "task_b": [
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672210547.9086952
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Histogram, x is occupation, y is sum of each occupation"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x occupation y aggregate sum sum transform group x",
+                        "prediction_time": 2.296848773956299,
+                        "rendering_time": 0.1911311149597168,
+                        "total_time": 2.4879798889160156
+                    },
+                    "timestamp": 1672210691.2406564
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Histogram, x is occupation, y is count of occupation"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x occupation y aggregate count occupation transform group x",
+                        "prediction_time": 2.176778554916382,
+                        "rendering_time": 0.19736385345458984,
+                        "total_time": 2.3741424083709717
+                    },
+                    "timestamp": 1672210741.1835217
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672210752.2931602
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Folding Line Chart, x is year, y is employee_id"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x is_full_time y aggregate none employee_id",
+                        "prediction_time": 1.8128087520599365,
+                        "rendering_time": 0.15504693984985352,
+                        "total_time": 1.96785569190979
+                    },
+                    "timestamp": 1672210838.8727434
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Folding Line Chart, x is start_from, y is employee_id"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 1.6821680068969727,
+                        "rendering_time": 0.2753596305847168,
+                        "total_time": 1.9575276374816895
+                    },
+                    "timestamp": 1672210848.932291
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672210999.8150032
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "calculate mean of amount_of_transaction, then generate a pie chart based on transaction_type_code"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x transaction_type_code y aggregate mean amount_of_transaction transform group x",
+                        "prediction_time": 2.721374034881592,
+                        "rendering_time": 0.1695270538330078,
+                        "total_time": 2.8909010887145996
+                    },
+                    "timestamp": 1672211027.4443576
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672211035.055845
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Histogram, x is location, y is sum of number_of_platforms"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x location y aggregate sum number_of_platforms transform group x",
+                        "prediction_time": 2.428929090499878,
+                        "rendering_time": 0.17163538932800293,
+                        "total_time": 2.600564479827881
+                    },
+                    "timestamp": 1672211148.3184564
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672211156.2346807
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Folding Line Chart, x is season, y is sum of Home_team"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate sum home_team transform group x",
+                        "prediction_time": 2.742995023727417,
+                        "rendering_time": 0.17631316184997559,
+                        "total_time": 2.9193081855773926
+                    },
+                    "timestamp": 1672211240.2774415
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Folding Line Chart, x is season, y is sum of the Score of Home_team"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate sum score transform group x",
+                        "prediction_time": 2.896730422973633,
+                        "rendering_time": 0.17067575454711914,
+                        "total_time": 3.067406177520752
+                    },
+                    "timestamp": 1672211257.2631464
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672211286.5033252
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make Histogram, x is sex, y is the number of AsstProf"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x",
+                        "prediction_time": 4.241173028945923,
+                        "rendering_time": 0.19677519798278809,
+                        "total_time": 4.437948226928711
+                    },
+                    "timestamp": 1672211315.9700918
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672211319.792518
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make pie chart, only top 5 from STU_GPA"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_gpa y aggregate count stu_gpa transform group x sort stu_gpa desc topk 5",
+                        "prediction_time": 2.9206557273864746,
+                        "rendering_time": 0.42301440238952637,
+                        "total_time": 3.343670129776001
+                    },
+                    "timestamp": 1672211341.054492
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "make pie chart, only top 5 from STU_GPA, show sut_fname"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_gpa y aggregate count stu_gpa transform group x sort x asc topk 5",
+                        "prediction_time": 2.7360591888427734,
+                        "rendering_time": 0.43926000595092773,
+                        "total_time": 3.175319194793701
+                    },
+                    "timestamp": 1672211362.3002076
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672211384.278523
+                }
+            ]
+        }
+    ]
+}

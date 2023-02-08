@@ -1,0 +1,1136 @@
+{
+    "user_id": 14,
+    "user_group": "A",
+    "task_a": [
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672665449.4743485
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "table"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x annual_entry_exit y aggregate count annual_entry_exit transform group x",
+                        "prediction_time": 2.8704404830932617,
+                        "rendering_time": 0.34886884689331055,
+                        "total_time": 3.2193093299865723
+                    },
+                    "timestamp": 1672665625.7944229
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "... scatterplot ..."
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672665694.7739196
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "... scatterplot ..."
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672665710.0951607
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672666132.1793017
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... scatterplot ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 2.1610429286956787,
+                        "rendering_time": 0.14672327041625977,
+                        "total_time": 2.3077661991119385
+                    },
+                    "timestamp": 1672666138.2397046
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... wtih a circle graph ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x is_full_time y aggregate count is_full_time transform bin x by year",
+                        "prediction_time": 2.092397689819336,
+                        "rendering_time": 0.19336771965026855,
+                        "total_time": 2.2857654094696045
+                    },
+                    "timestamp": 1672666177.1381736
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... scatterplot ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 2.184025526046753,
+                        "rendering_time": 0.14954900741577148,
+                        "total_time": 2.3335745334625244
+                    },
+                    "timestamp": 1672666187.4396565
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... scatterplot ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 2.293145179748535,
+                        "rendering_time": 0.20930695533752441,
+                        "total_time": 2.5024521350860596
+                    },
+                    "timestamp": 1672666223.8028762
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... scatterplot ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 2.195141553878784,
+                        "rendering_time": 0.16552281379699707,
+                        "total_time": 2.3606643676757812
+                    },
+                    "timestamp": 1672666262.267736
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "validation",
+                        "args": [
+                            "... scatterplot ...",
+                            "id"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672666280.8928905
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... id scatterplot ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x id y aggregate none shop_id",
+                        "prediction_time": 1.6872646808624268,
+                        "rendering_time": 0.14874601364135742,
+                        "total_time": 1.8360106945037842
+                    },
+                    "timestamp": 1672666290.723185
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... scatterplot ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x start_from y aggregate none employee_id",
+                        "prediction_time": 2.174816846847534,
+                        "rendering_time": 0.15208697319030762,
+                        "total_time": 2.326903820037842
+                    },
+                    "timestamp": 1672666306.0090415
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... scatterplot start from 2003  ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x start_from y aggregate none 2003",
+                        "prediction_time": 1.572364091873169,
+                        "rendering_time": 0.36786651611328125,
+                        "total_time": 1.9402306079864502
+                    },
+                    "timestamp": 1672666322.342354
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... scatterplot start from ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark point encoding x start_from y aggregate none is_full_time",
+                        "prediction_time": 1.806692361831665,
+                        "rendering_time": 0.16608715057373047,
+                        "total_time": 1.9727795124053955
+                    },
+                    "timestamp": 1672666331.4988885
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... Create line graphs ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x start_from y aggregate count start_from transform bin x by year",
+                        "prediction_time": 2.286616086959839,
+                        "rendering_time": 0.18239283561706543,
+                        "total_time": 2.4690089225769043
+                    },
+                    "timestamp": 1672666364.8953826
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... Create line graphs with id ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x id y aggregate none shop_id",
+                        "prediction_time": 1.440546989440918,
+                        "rendering_time": 0.15187311172485352,
+                        "total_time": 1.5924201011657715
+                    },
+                    "timestamp": 1672666412.3221426
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "... Create line graphs with employee id ..."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x employee_id y aggregate none employee_id",
+                        "prediction_time": 1.6090333461761475,
+                        "rendering_time": 0.23887133598327637,
+                        "total_time": 1.8479046821594238
+                    },
+                    "timestamp": 1672666432.705303
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "... Create line graphs with employee_id ..."
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672666441.9833715
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672666862.9739854
+                },
+                {
+                    "event": "LOG BROKEN",
+                    "message": {
+                        "args": [
+                            "Create a pie chart with date_of_transaction of 1970"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": null
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672667421.2240705
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create graph with Number_of_platforms for each location "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x location y aggregate none number_of_platforms",
+                        "prediction_time": 3.517575979232788,
+                        "rendering_time": 0.16297698020935059,
+                        "total_time": 3.6805529594421387
+                    },
+                    "timestamp": 1672667427.4076388
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create graph with sum of Number_of_platforms for each location "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x location y aggregate sum number_of_platforms transform group x",
+                        "prediction_time": 2.465423345565796,
+                        "rendering_time": 0.17074275016784668,
+                        "total_time": 2.6361660957336426
+                    },
+                    "timestamp": 1672667435.6930678
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672667632.1019711
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by season "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x",
+                        "prediction_time": 2.9345619678497314,
+                        "rendering_time": 0.1684582233428955,
+                        "total_time": 3.103020191192627
+                    },
+                    "timestamp": 1672667637.484657
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by season reverse sort "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x sort x asc",
+                        "prediction_time": 2.635420560836792,
+                        "rendering_time": 0.19423198699951172,
+                        "total_time": 2.8296525478363037
+                    },
+                    "timestamp": 1672667671.3208053
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by season start 2013 "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform bin x by year",
+                        "prediction_time": 2.533604145050049,
+                        "rendering_time": 0.20141363143920898,
+                        "total_time": 2.735017776489258
+                    },
+                    "timestamp": 1672667686.1305332
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by season  "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x",
+                        "prediction_time": 3.3542566299438477,
+                        "rendering_time": 0.527263879776001,
+                        "total_time": 3.8815205097198486
+                    },
+                    "timestamp": 1672667695.1201262
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by season sort "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x sort x asc",
+                        "prediction_time": 2.860992193222046,
+                        "rendering_time": 0.1974654197692871,
+                        "total_time": 3.058457612991333
+                    },
+                    "timestamp": 1672667719.294893
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records sort by season  "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x year y aggregate count season transform sort x asc bin x by year",
+                        "prediction_time": 2.9229676723480225,
+                        "rendering_time": 0.2792222499847412,
+                        "total_time": 3.2021899223327637
+                    },
+                    "timestamp": 1672667739.4758065
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by sort  season  "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x",
+                        "prediction_time": 2.949784278869629,
+                        "rendering_time": 0.1768944263458252,
+                        "total_time": 3.126678705215454
+                    },
+                    "timestamp": 1672667752.1110568
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by sort season "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x",
+                        "prediction_time": 2.8268821239471436,
+                        "rendering_time": 0.16763067245483398,
+                        "total_time": 2.9945127964019775
+                    },
+                    "timestamp": 1672667758.6930418
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by season start season 2013 "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform bin x by year",
+                        "prediction_time": 2.5197629928588867,
+                        "rendering_time": 0.20062708854675293,
+                        "total_time": 2.7203900814056396
+                    },
+                    "timestamp": 1672667780.1059468
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create line graph with count of Records by season  "
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x",
+                        "prediction_time": 2.552875280380249,
+                        "rendering_time": 0.18023014068603516,
+                        "total_time": 2.733105421066284
+                    },
+                    "timestamp": 1672667792.21218
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672667986.9358897
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create graph with count of records for each sex, and the value of Rank must be AssetProf"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x",
+                        "prediction_time": 3.487161159515381,
+                        "rendering_time": 0.19770216941833496,
+                        "total_time": 3.684863328933716
+                    },
+                    "timestamp": 1672667993.1478024
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672668006.8467143
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create a pie chart for each stu_fname and"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate count stu_fname transform group x",
+                        "prediction_time": 3.1740381717681885,
+                        "rendering_time": 0.1628568172454834,
+                        "total_time": 3.336894989013672
+                    },
+                    "timestamp": 1672668063.3040771
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create a pie chart for each stu_fname and display the TOP 5 in it."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate count stu_fname transform group x sort y desc topk 5",
+                        "prediction_time": 3.08296275138855,
+                        "rendering_time": 0.42672276496887207,
+                        "total_time": 3.509685516357422
+                    },
+                    "timestamp": 1672668091.6671662
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "show figure",
+                        "args": [
+                            "Create a pie chart for each stu_fname and display the TOP 5 of STU_GPA"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate count stu_fname transform group x topk 5",
+                        "prediction_time": 3.538374423980713
+                    },
+                    "timestamp": 1672668128.3589342
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create a pie chart for each stu_fname and display the TOP of STU_GPA"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate count stu_fname transform group x",
+                        "prediction_time": 3.285921096801758,
+                        "rendering_time": 0.16595697402954102,
+                        "total_time": 3.451878070831299
+                    },
+                    "timestamp": 1672668163.2213175
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "Create a pie chart for each stu_fname and display the TOP of STU_GPA"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": 1672668193.2791684
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672668442.029867
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create a graph with the number of records by headquarters, sorted and displayed in order of decreasing size."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort y desc",
+                        "prediction_time": 3.2772090435028076,
+                        "rendering_time": 0.2162494659423828,
+                        "total_time": 3.4934585094451904
+                    },
+                    "timestamp": 1672668447.585714
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create a graph with the number of records by headquarters, sorted and displayed in order of largest to smallest."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort y desc",
+                        "prediction_time": 3.315866231918335,
+                        "rendering_time": 0.21171951293945312,
+                        "total_time": 3.527585744857788
+                    },
+                    "timestamp": 1672668468.5912123
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "Create a graph with the number of records by headquarters, sorted and displayed in order of largest to smallest."
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort y desc",
+                        "prediction_time": 3.133944034576416,
+                        "rendering_time": 0.20884490013122559,
+                        "total_time": 3.3427889347076416
+                    },
+                    "timestamp": 1672668522.305037
+                }
+            ]
+        }
+    ],
+    "task_b": [
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672706926.7546222
+                },
+                {
+                    "event": "LOG BROKEN",
+                    "message": {
+                        "args": [
+                            "Create a graph with count of Records by occupation"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": null
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672707188.2127717
+                },
+                {
+                    "event": "LOG BROKEN",
+                    "message": {
+                        "args": [
+                            "create a line graph",
+                            "employee_id"
+                        ],
+                        "kwargs": {}
+                    },
+                    "timestamp": null
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672707401.8261693
+                },
+                {
+                    "event": "LOG BROKEN",
+                    "message": {
+                        "args": [
+                            "create a pie chart with date_of_transaction "
+                        ],
+                        "kwargs": {
+                            "specify": [
+                                "transaction_type_code"
+                            ]
+                        }
+                    },
+                    "timestamp": null
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672707755.6209319
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create a line graph"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark line encoding x year_entry_exit y aggregate count annual_entry_exit transform group x",
+                        "prediction_time": 2.5086095333099365,
+                        "rendering_time": 0.16085338592529297,
+                        "total_time": 2.6694629192352295
+                    },
+                    "timestamp": 1672707772.8142226
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create a line graph"
+                        ],
+                        "kwargs": {
+                            "target": "location"
+                        },
+                        "vega_zero": "mark line encoding x location y aggregate count location transform group x",
+                        "prediction_time": 2.48380184173584,
+                        "rendering_time": 0.16721892356872559,
+                        "total_time": 2.6510207653045654
+                    },
+                    "timestamp": 1672707788.9298995
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create a graph"
+                        ],
+                        "kwargs": {
+                            "target": "location"
+                        },
+                        "vega_zero": "mark arc encoding x location y aggregate count location transform group x",
+                        "prediction_time": 2.190189838409424,
+                        "rendering_time": 0.1645667552947998,
+                        "total_time": 2.3547565937042236
+                    },
+                    "timestamp": 1672707797.1776476
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph"
+                        ],
+                        "kwargs": {
+                            "target": "location"
+                        },
+                        "vega_zero": "mark bar encoding x location y aggregate count location transform group x",
+                        "prediction_time": 2.387759208679199,
+                        "rendering_time": 0.16178011894226074,
+                        "total_time": 2.54953932762146
+                    },
+                    "timestamp": 1672707824.9451754
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph"
+                        ],
+                        "kwargs": {
+                            "target": "location",
+                            "sum": "number_of_platforms"
+                        },
+                        "vega_zero": "mark bar encoding x location y aggregate sum number_of_platforms transform group x",
+                        "prediction_time": 2.4360694885253906,
+                        "rendering_time": 0.3208193778991699,
+                        "total_time": 2.7568888664245605
+                    },
+                    "timestamp": 1672707889.6411114
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672708100.7101028
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create a line graph order by desc year"
+                        ],
+                        "kwargs": {
+                            "target": "season",
+                            "count": "records"
+                        },
+                        "vega_zero": "mark line encoding x season y aggregate count season transform group x sort x desc",
+                        "prediction_time": 2.950803518295288,
+                        "rendering_time": 0.19648218154907227,
+                        "total_time": 3.1472856998443604
+                    },
+                    "timestamp": 1672708106.2526543
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672708324.861319
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create a graph The value of Rank must be 'AsstProf'"
+                        ],
+                        "kwargs": {
+                            "target": "sex",
+                            "count": "recours"
+                        },
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform filter sex = \"asstprof\" group x",
+                        "prediction_time": 4.48836612701416,
+                        "rendering_time": 0.4995157718658447,
+                        "total_time": 4.987881898880005
+                    },
+                    "timestamp": 1672708332.2526262
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create a graph The value of Rank must be AsstProf"
+                        ],
+                        "kwargs": {
+                            "target": "sex",
+                            "count": "recours"
+                        },
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform filter sex = \"stprof\" group x",
+                        "prediction_time": 4.792620658874512,
+                        "rendering_time": 0.286407470703125,
+                        "total_time": 5.079028129577637
+                    },
+                    "timestamp": 1672708349.3090286
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create a graph "
+                        ],
+                        "kwargs": {
+                            "target": "sex",
+                            "count": "recours"
+                        },
+                        "vega_zero": "mark bar encoding x sex y aggregate count sex transform group x",
+                        "prediction_time": 3.581130266189575,
+                        "rendering_time": 0.1897563934326172,
+                        "total_time": 3.7708866596221924
+                    },
+                    "timestamp": 1672708361.1675527
+                }
+            ]
+        },
+        {
+            "failed": false,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672708366.2873735
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create a pie chart"
+                        ],
+                        "kwargs": {
+                            "target": "stu_fname"
+                        },
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate none stu_fname",
+                        "prediction_time": 3.0688300132751465,
+                        "rendering_time": 0.2763841152191162,
+                        "total_time": 3.3452141284942627
+                    },
+                    "timestamp": 1672708398.945166
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create pie chart"
+                        ],
+                        "kwargs": {
+                            "target": "stu_fname"
+                        },
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate none stu_fname",
+                        "prediction_time": 2.2563159465789795,
+                        "rendering_time": 0.15170526504516602,
+                        "total_time": 2.4080212116241455
+                    },
+                    "timestamp": 1672708421.331789
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create pie chart"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark arc encoding x stu_dob y aggregate count stu_dob transform group x",
+                        "prediction_time": 2.256399631500244,
+                        "rendering_time": 0.16376733779907227,
+                        "total_time": 2.4201669692993164
+                    },
+                    "timestamp": 1672708440.6950827
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create pie chart"
+                        ],
+                        "kwargs": {
+                            "target": "stu_fname"
+                        },
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate none stu_fname",
+                        "prediction_time": 2.421699047088623,
+                        "rendering_time": 0.26096582412719727,
+                        "total_time": 2.6826648712158203
+                    },
+                    "timestamp": 1672708457.3465893
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create pie chart"
+                        ],
+                        "kwargs": {
+                            "target": "stu_fname",
+                            "STU_GPA": "TOP 5"
+                        },
+                        "vega_zero": "mark arc encoding x stu_fname y aggregate none stu_gpa transform sort y desc topk 5",
+                        "prediction_time": 2.57743501663208,
+                        "rendering_time": 0.4183471202850342,
+                        "total_time": 2.9957821369171143
+                    },
+                    "timestamp": 1672708494.9727333
+                }
+            ]
+        },
+        {
+            "failed": true,
+            "events": [
+                {
+                    "event": "__init__",
+                    "message": null,
+                    "timestamp": 1672708501.563598
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph"
+                        ],
+                        "kwargs": {},
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 2.7022016048431396,
+                        "rendering_time": 0.16638684272766113,
+                        "total_time": 2.868588447570801
+                    },
+                    "timestamp": 1672708517.831402
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters"
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x",
+                        "prediction_time": 2.5600924491882324,
+                        "rendering_time": 0.18170857429504395,
+                        "total_time": 2.7418010234832764
+                    },
+                    "timestamp": 1672708534.775338
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph sort by asc"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters"
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort x asc",
+                        "prediction_time": 2.978654623031616,
+                        "rendering_time": 0.1941983699798584,
+                        "total_time": 3.1728529930114746
+                    },
+                    "timestamp": 1672708548.0118165
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph sort by desc"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters"
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort y desc",
+                        "prediction_time": 3.568662405014038,
+                        "rendering_time": 0.19637680053710938,
+                        "total_time": 3.7650392055511475
+                    },
+                    "timestamp": 1672708556.7096143
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph sort by asc"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters"
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort x asc",
+                        "prediction_time": 2.7036311626434326,
+                        "rendering_time": 0.19237923622131348,
+                        "total_time": 2.896010398864746
+                    },
+                    "timestamp": 1672708566.226669
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph sort by low"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters"
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort x desc",
+                        "prediction_time": 2.9945876598358154,
+                        "rendering_time": 0.20587611198425293,
+                        "total_time": 3.2004637718200684
+                    },
+                    "timestamp": 1672708615.19217
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph sort by high"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters"
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort x asc",
+                        "prediction_time": 3.1083009243011475,
+                        "rendering_time": 0.19654250144958496,
+                        "total_time": 3.3048434257507324
+                    },
+                    "timestamp": 1672708627.1349032
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph sort by desc"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters"
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters transform group x sort y desc",
+                        "prediction_time": 2.727855682373047,
+                        "rendering_time": 0.20848798751831055,
+                        "total_time": 2.9363436698913574
+                    },
+                    "timestamp": 1672708634.588964
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph sort by desc"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters",
+                            "color": [
+                                "automotive:blue"
+                            ]
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate count headquarters color auto_id transform group x sort x desc",
+                        "prediction_time": 2.9887020587921143,
+                        "rendering_time": 0.23041820526123047,
+                        "total_time": 3.2191202640533447
+                    },
+                    "timestamp": 1672708654.8732014
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "args": [
+                            "create graph sort by desc"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters",
+                            "industryColor": [
+                                "automotive:blue"
+                            ]
+                        },
+                        "vega_zero": "mark bar encoding x headquarters y aggregate none headquarters transform sort x desc",
+                        "prediction_time": 2.9384865760803223,
+                        "rendering_time": 0.33078885078430176,
+                        "total_time": 3.269275426864624
+                    },
+                    "timestamp": 1672708680.8458025
+                },
+                {
+                    "event": "__call__",
+                    "message": {
+                        "error": "timeout",
+                        "args": [
+                            "create graph sort by desc"
+                        ],
+                        "kwargs": {
+                            "target": "headeauaters",
+                            "color": [
+                                "automotive:blue"
+                            ]
+                        }
+                    },
+                    "timestamp": 1672708687.3396251
+                }
+            ]
+        }
+    ]
+}
