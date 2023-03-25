@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vxnli"
-version = "0.1.0"
+version = "0.2.0"
 description = "Extended Natural Language Interface for Data Visualization (V-XNLI)"
 license = "MIT"
 authors = ["kwkty <45205880+kwkty@users.noreply.github.com>"]
