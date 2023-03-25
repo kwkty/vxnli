@@ -38,8 +38,6 @@ class Plot:
         # This procedure is different from the training one
         data = data.rename(columns={col: col.lower() for col in data.columns})
 
-        # df = df.astype(str)
-
         for col_name, col_dtype in zip(data.columns, data.dtypes):
             # HACK: vega_zero is lower-cased
             if pd.api.types.is_string_dtype(col_dtype):
