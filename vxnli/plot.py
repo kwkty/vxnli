@@ -18,7 +18,7 @@ class Plot:
         model: Optional[Callable[..., str]] = None,
     ) -> None:
         if model is None:
-            from vxnli.models.v0.model import Model
+            from vxnli.models.v1.model import Model
 
             model = Model()
 
